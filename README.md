@@ -13,7 +13,7 @@ The constructor method is a special method:
 
 # Sytax:
 
-#### javaScript class template. 
+### javaScript class template. 
 
 class ClassName {
     constructor(parameter1, parameter2){
@@ -29,11 +29,11 @@ class ClassName {
 }
 
 
-#### javaScript class using
+### javaScript class using
 
 const varName = new ClassName(argument1, argument2);
 
-#### class method call
+### class method call
 
 varName.method_1(argument1, argument2);
 
