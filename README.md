@@ -58,10 +58,8 @@ Inheritance means one class inheriting another class, is called inheritance. To 
     class ChildClassName extends parentClassName{
 
         constructor(parameter1){
-
             super(parameter1);
             this.propertyName = parameter1; 
-
         }
 
         method_1(){....}
@@ -91,10 +89,8 @@ Setter means set keyword
 
     class ClassName{
         constructor(parameter1, parameter2){
-
             this.propertyName = parameter1;
             this.propertyName = parameter2;
-
         }
 
         get proName(){
