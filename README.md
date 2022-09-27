@@ -71,7 +71,7 @@ Inheritance means one class inheriting another class, is called inheritance. To 
     const objectName = new childClassName(parameter1);
 
 
-### super() method:-
+## super() method:-
 The super() method refers to the parent class. By calling the super() method in the constructor method we call the parent's constructor method and gets access to the parent's properties and methods.
 
 
@@ -114,7 +114,6 @@ Setter means set keyword
 #### Access set property name:-
 
     className.setterProperty = parameterValue;   ( set function property value. Then change the property value )
-
 
 ### note: The name of getter/setter method cannot be the same as the name of the object property.  
 
