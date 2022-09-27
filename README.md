@@ -15,27 +15,27 @@ The constructor method is a special method:
 
 ### javaScript class template:
 
-class ClassName {
+    class ClassName {
 
-    constructor(parameter1, parameter2) {
-        this.property1 = parameter1;
-        this.property2 = parameter2;
+        constructor(parameter1, parameter2) {
+            this.property1 = parameter1;
+            this.property2 = parameter2;
+        }
+
+        method_1(parameter1, parameter2){......}
+
+        method_2(){......}
+
+        method_3(){......}
     }
-
-    method_1(parameter1, parameter2){......}
-
-    method_2(){......}
-
-    method_3(){......}
-}
 
 
 ### javaScript class using:-
 
-const varName = new ClassName(argument1, argument2);
+    const varName = new ClassName(argument1, argument2);
 
 
 ### class method call:-
 
-varName.method_1(argument1, argument2);
+    varName.method_1(argument1, argument2);
 
