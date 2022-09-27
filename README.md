@@ -45,6 +45,7 @@ Inheritance means one class inheriting another class, is called inheritance. To 
 #### Example:-
 
     class ParentClassName{
+
         constructor(parameter){....}
 
         method_1(){.....}
@@ -55,8 +56,12 @@ Inheritance means one class inheriting another class, is called inheritance. To 
 
 
     class ChildClassName extends parentClassName{
+
         constructor(parameter1){
+
             super(parameter1);
+            this.propertyName = parameter1; 
+
         }
 
         method_1(){....}
@@ -85,8 +90,11 @@ Setter means set keyword
 ### Example :-
 
     class ClassName{
-        constructor(parameter1){
+        constructor(parameter1, parameter2){
+
             this.propertyName = parameter1;
+            this.propertyName = parameter2;
+
         }
 
         get proName(){
@@ -101,7 +109,7 @@ Setter means set keyword
 
 ### javaScript class using:-
 
-    const objectName = new ClassName(parameter1);
+    const objectName = new ClassName(parameter1, parameter2);
 
 #### Access get property:-
 
