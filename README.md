@@ -18,10 +18,8 @@ The constructor method is a special method:
 class ClassName {
 
     constructor(parameter1, parameter2) {
-
         this.property1 = parameter1;
         this.property2 = parameter2;
-
     }
 
     method_1(parameter1, parameter2){......}
