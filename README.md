@@ -1,4 +1,4 @@
-# JavaScript class obejct
+# JavaScript class object
 
 ## I have discussed three issues here:
 
