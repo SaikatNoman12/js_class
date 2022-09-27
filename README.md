@@ -115,7 +115,7 @@ Setter means set keyword
 
     className.setterProperty = parameterValue;   ( set function property value. Then change the property value )
 
-### note: The name of getter/setter method cannot be the same as the name of the object property.  
+### Note: The name of getter/setter method cannot be the same as the name of the object property.  
 
 
 
